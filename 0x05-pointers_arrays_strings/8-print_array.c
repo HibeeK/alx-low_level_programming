@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * _puts - function that prints a string, followed by a new line, to stdout
- * @str: pointer to the string to be printed
+ * print_array - function that prints n elements of an array of integers
+ * @a: pointer to the string to be printed
+ * @n: number of elements of the aray to be printed
  * Return: 0
  */
 
-void _puts(char *str)
+void print_array(int *a, int n)
 {
-	int i = 0;
+	int i;
 
-	while (str[i])
-	{
-		putchar(str[i]);
-		i++;
-	}
-	putchar('\n');
+	for (i = 0; i < n; i++)
+
+		if (i != n - 1)
+			printf("%d, ", a[i]);
+		else
+			printf("%d", a[i]);
+	printf("\n");
 }
 
