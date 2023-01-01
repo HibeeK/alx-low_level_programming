@@ -37,24 +37,8 @@ Follow the following instructions to get a copy of the program and run in your l
 
 * Clone the following repository.
 ```
-https://github.com/PabloYepes27/holbertonschool-low_level_programming/0x1C-makefiles.git
+https://github.com/HibeeK/alx-low_level_programming/0x1C-makefiles.git
 ```
-
-* Compile it with GCC
-```
-gcc -Wall -Werror -Wextra -pedantic -g *.c -o holberton
-```
-
-* Run the program
-```
-./holberton
-```
-
-* Run with debugger
-```
-valgrind --leak-check=full --show-leak-kinds=all ./holberton
-```
----
 
 ## Tasks:clipboard:
 
@@ -106,7 +90,5 @@ Read or watch:
 
 ## Author:black_nib:
 
-* **Juan Pablo Yepes Tamayo**
- - [GitHub](https://github.com/PabloYepes27)
- - [Linkedin](https://www.linkedin.com/in/pablo-yepes-120495)
- - [Twitter](https://twitter.com/pabloyepes27)
+* **Akintola Ibukun Josiah**
+ - [GitHub](https://github.com/HibeeK)
